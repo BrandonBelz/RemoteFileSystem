@@ -59,6 +59,7 @@ Example (from inside the repository):
   cd ..
   mkdir DATA
   mkdir DATA/alice
+
 **Add files to DATA/alice to test ls/down/cp**
 
 ---
