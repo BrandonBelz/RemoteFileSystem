@@ -229,5 +229,3 @@ This project is intentionally tiny for demonstration and local testing. Do NOT r
 - Add unit and integration tests for client/server message handling.
 - Improve file transfer protocol to support streaming large files (instead of reading full file into memory).
 - Implement a simple file-based authentication mechanism for demo purposes.
-
-Which would you like me to do next?
