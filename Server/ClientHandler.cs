@@ -253,12 +253,12 @@ class ClientHandler
                     (str1, str2) = message.Split("\n");
                     str2 = _state.GetFullPath(str2);
                     str1 = _state.GetFullPath(str1);
-                    if (Directory.Exists(str2) && _state.IsInHome(str1) &&
+                    if (Directory.Exists(str1) && _state.IsInHome(str1) &&
                         _state.IsInHome(str2))
                     {
-                        if (!str1.StartsWith(str2))
+                        if (!str2.StartsWith(str1))
                         {
-                            RecursiveCopy(str2, str1);
+                            RecursiveCopy(str1, str2);
                             response = new(MessageType.ResponseCommandOutput);
                         }
                         else
