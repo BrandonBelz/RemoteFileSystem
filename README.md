@@ -86,7 +86,7 @@ From the repository root:
 
 2. Start the server (from repo root):
 
-   dotnet run --project Server
+   sudo dotnet run --project Server (requires root priveleges to listen on port 980)
 
    You should see:
    Server started.
